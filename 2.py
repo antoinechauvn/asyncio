@@ -59,7 +59,7 @@ if __name__ == '__main__':
         stream=sys.stderr,
     )
 
-    # On va créer un PoolExecutor qui contiendrat des Threads
+    # On va créer un PoolExecutor qui contiendra des Threads
     # qu'on va limiter volontairement à 3 workers
     executor = concurrent.futures.ThreadPoolExecutor(max_workers=3)
     try:
