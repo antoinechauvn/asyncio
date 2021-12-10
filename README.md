@@ -21,3 +21,4 @@ Approche sur la librairie de haut niveau Asyncio
 >Un ThreadPoolExecutor démarre ses threads de travail et appelle ensuite chacune des fonctions fournies une fois dans un thread. Cet exemple montre comment combiner run_in_executor() et wait() pour qu'une coroutine cède le contrôle à la boucle d'événement pendant que les fonctions de blocage s'exécutent dans des threads séparés, puis se réveille lorsque ces fonctions sont terminées.
 
 
+###### © 2021 pymotw & realpython
